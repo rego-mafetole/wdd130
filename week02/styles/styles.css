@@ -13,6 +13,11 @@ h1 {
     color: black;
 }
 
+img {
+    width: 200;
+    height: auto;
+}
+
 main {
     max-width: 840px;
 }
@@ -27,11 +32,11 @@ aside {
 }
 
 aside img {
-    width: 200 px;
+    width: 200px;
     height: auto;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
