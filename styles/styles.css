@@ -75,7 +75,7 @@ p {
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: left;
 }
 
 /* Class selectors */
