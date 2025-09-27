@@ -97,7 +97,7 @@ h1, h2 {
 }
 
 .history-figure img {
-    width: 100;
+    width: 100%;
     height: auto;
     align-items: center;
 }
