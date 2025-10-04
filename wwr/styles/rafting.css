@@ -7,23 +7,30 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
     text-align: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .site-header {
+    background-color: var(--accent1-color);
+    color: #fff;
+    padding: 1em;
     display: flex;
-    align-content: flex-start;
+    align-content: space-between;
     align-items: center;
-    padding: 20px;
+}
+
+.site-logo img {
+    width: 100px;
+    height: auto;
 }
 
 header, main, footer {

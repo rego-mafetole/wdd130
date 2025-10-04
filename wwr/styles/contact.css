@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+
+body {
+    font-family: var(--body-font);
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.site-logo img {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-nav li {
+    margin-right: 20px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.company-info {
+    margin-top: 20px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.map {
+  margin-top: 20px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+.employee-profiles {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+
+footer .social-media {
+  margin-top: 10px;
+}
+
+footer .social-media a {
+  margin-right: 10px;
+}
+
+footer .social-media img {
+  width: 30px;
+  height: 30px;
+}
