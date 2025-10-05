@@ -180,6 +180,12 @@ h1 {
     margin-left: 10px;
 }
 
+.employee-profile div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
