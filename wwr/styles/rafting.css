@@ -22,10 +22,11 @@ body {
 .site-header {
     background-color: var(--accent1-color);
     color: #fff;
-    padding: 1em;
-    display: flex;
-    align-content: space-between;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
+    gap: 16px;
+    padding: 12px 8px;
 }
 
 .site-logo img {
@@ -89,14 +90,14 @@ h1, h2 {
 
 .history-grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     align-items: center;
 }
 
 .history-figure {
     margin: 0;
-    padding: 12px;
+    padding: 10px;
     text-align: center;
     background: slategray;
     color: #000;
@@ -109,16 +110,8 @@ h1, h2 {
     align-items: center;
 }
 
-.site-header {
-    display: grid;
-    align-items: center;
-    gap: 16px;
-    padding: 12px 8px;
-}
-
 .site-nav ul{
     list-style: none;
-    background-color: steelblue;
     display: flex;
     padding: 1rem;
     gap: 20px;
