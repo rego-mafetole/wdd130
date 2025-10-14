@@ -31,44 +31,65 @@
         <p>moreinfo@whitewater.com</p>
     </div>
     <main>
-        <form>
-            <fieldset>
+        <section class="contact-form">
+            <!-- The contact form -->
+            <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562923.354853448!2d-86.44854391969157!3d27.555249065400176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c1766591562abf%3A0xf72e13d35bc74ed0!2sFlorida%2C%20USA!5e0!3m2!1sen!2sng!4v1759888832228!5m2!1sen!2sng"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <form>
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Placeholder" autocomplete="name">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Placeholder" autocomplete="email">
                 <label for="message">Message Purpose</label>
-                <input type="radio" id="general" name="purpose" value="General Inquiry">
-                <label for="general">General Inquiry</label>
-                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-                <label for="reservation">Reservation Question</label>
-                <input type="radio" id="website" name="purpose" value="Website Suggestion">
-                <label for="website">Website Suggestion</label>
+                <div>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry">
+                    <label for="general">General Inquiry</label>
+                </div>
+                <div>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label>
+                </div>
+                <div>
+                    <input type="radio" id="website" name="purpose" value="Website Suggestion">
+                    <label for="website">Website Suggestion</label>
+                </div>
                 <label for="message">Message</label>
                 <textarea id="message" placeholder="Type here"></textarea>
-                <input type="checkbox" id="subscribe">
-                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                <div>
+                    <input type="checkbox" id="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
                 <button type="submit">Get in Touch!</button>
-            </fieldset>
-        </form>
-        <h2>We Are Here to Serve You</h2>
-        <div class="employee-profiles">
-            <figure>
-                <img src="images/safety_manager.webp" alt="Matthew head of safety and regulations" width="150">
-                <figcaption>Head of Safety and Regulations</figcaption>
-            </figure>
-            <figure>
-                <img src="images/instructor.jpg" alt="James, rafting instructor" width="150">
-                <figcaption>Rafting Instructor</figcaption>
-            </figure>
-            <figure>
-                <img src="images/manager.webp" alt="Manager of the rafting company" width="150">
-                <figcaption>Manager</figcaption>
-        </div>
+            </form>
+        </section>
+        <section>
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee">
+                <div>
+                    <figure>
+                        <img src="images/safety_manager.webp" alt="Matthew head of safety and regulations" width="150">
+                        <figcaption>Head of Safety and Regulations</figcaption>
+                    </figure>
+                </div>
+                <div class="employee">
+                    <figure>
+                        <img src="images/instructor.jpg" alt="James, rafting instructor" width="150">
+                        <figcaption>Rafting Instructor</figcaption>
+                    </figure>
+                </div>
+                <div class="employee">
+                    <figure>
+                        <img src="images/manager.webp" alt="Manager of the rafting company" width="150">
+                        <figcaption>Manager</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 🌊 Rafting Travel 🌊 Regomoditswe Mafetole</p>
