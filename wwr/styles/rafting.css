@@ -4,7 +4,7 @@
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: Arial, Helvetica, sans-serif;
+    --body-font: Arial, sans-serif;
 }
 
 body {
@@ -209,7 +209,7 @@ label, input, button, select, textarea {
 label {
     text-align: left;
     padding-left: 1rem;
-    vertical-align: auto;
+    vertical-align: baseline; 
 }
 
 input, select, textarea {
